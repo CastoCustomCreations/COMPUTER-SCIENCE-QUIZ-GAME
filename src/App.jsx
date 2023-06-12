@@ -9,7 +9,7 @@ function App() {
 
   function startGame() {
     fetch(
-      "https://opentdb.com/api.php?amount=10&category=18&difficulty=hard&type=multiple"
+      "https://opentdb.com/api.php?amount=5&category=19&difficulty=medium&type=multiple"
     )
       .then((res) => res.json())
       .then((data) => {
